@@ -1,0 +1,125 @@
+html {
+font-size: 62.5%;
+
+}
+
+body{
+
+    font-size: 16px;
+
+}
+
+
+/*Este codigo de arriba permite que 10px sea igual a 1 REM
+SIN ESO 16PX ES IGUAL A 1 REM */
+/* 
+
+h1{
+
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 30px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 7rem;
+    max-width: 60%;
+} */
+
+/*padding es el margen de la caja interior y margin es el margen del exterior
+USAR TEXT-TRANSFORM EN VEZ DE PONER DIRECTAMENTE EN EL HTML MINUSCULA O MAYUS, CUENTA MÁS PARA NOTA*/
+
+body{
+
+background-color: white;
+
+}
+
+
+/* 
+
+.seccionprueba h5{
+
+color: white;
+background-color: blue;
+}
+
+#projo{
+color: white;
+background-color: red;
+
+}
+
+.seccionprueba h3{
+    
+    color: white;
+    background-color: green;
+
+
+}
+
+/*selector de clase*/
+/* .h3{
+
+text-align: center;
+text-transform: uppercase;
+color: red;
+font-size: 3rem;
+
+}
+/*selector de id*/
+/*
+#rojo{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-size: 3rem;
+    
+}
+
+/*selector de elemento*/
+/* 
+h6{
+
+font-style: italic;
+
+}
+
+
+.seleccionejercicio p{
+
+font-family: cursive;
+
+}
+
+
+
+/*selector de atributo*/
+/* 
+[src="/img/adecco.png"]{
+
+background-color: black;   
+
+} */
+
+/*selector multiple*/
+/*     
+#rojo , [src="/img/adecco.png"]{
+
+    background-color: blue;
+
+} */
+
+/*selector todos los hijos*/
+/* 
+.seccionejercicio{
+
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+    }   */ 
