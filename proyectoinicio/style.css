@@ -1,0 +1,413 @@
+:root {
+
+    --colorPrincipal: #f76666;
+    --colorSecundario: #02052f;
+    --fuentePrincipal: 'Open sans', sans-serif;
+    --fuenteBotones: 'DinBold', sans-serif;
+}
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+
+    font-size: 16px;
+
+}
+
+
+
+
+.bannerPrincipal {
+    background-image: url(../img/baner.png);
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+.contenedor {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+.margenDerecho {
+    margin-right: 35%;
+}
+
+
+
+.tituloPrincipal {
+    background: rgba(248, 102, 102, 0.65);
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 800;
+    padding: 35px;
+    color: #fff;
+    font-family: var(--fuentePrincipal);
+    font-size: 4.5rem;
+}
+
+.bannerPrincipal a {
+
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 24px 94px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--fuenteBotones);
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+.flexMain {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.red {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -120px;
+    border-radius: 12px;
+}
+
+.cursos > h3 {
+
+    text-align: center;
+    color: var(--colorPrincipal);
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin: 40px 0px;
+
+}
+
+.cursos > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fuentePrincipal);
+
+}
+
+
+.botonesCursos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 105px;
+    margin-top: 50px;
+}
+
+.botonesCursos a {
+
+    color: var(--colorSecundario);
+    font-family: var(--fuentePrincipal);
+    font-size: 1.4rem;
+    padding: 13px 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid var(--colorPrincipal);
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+
+}
+
+.vertodo {
+
+    color: white !important;
+    background-color: var(--colorPrincipal);
+
+}
+
+
+.inscribirse {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex:2;
+    padding: 40px 60px;
+    font-family: var(--fuentePrincipal);
+
+}
+
+.inscribirse >div{
+
+max-width: 50%;
+flex:2;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+padding: 40px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 300px;
+}
+
+.inscribirse div h2{
+
+color: #fff;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+border-color: #fff;
+display: flex;
+font-weight: bold;
+font-size: 2.7rem;
+text-transform: uppercase;
+
+}
+
+.inscribirse a{
+
+color: var(--colorPrincipal);
+background-color: white;
+font-size: 1.4rem;
+border: 2px solid white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 700;
+padding: 20px 60px;
+display: inline-block;
+
+
+}
+
+.inscribirse a:hover{
+
+background-color: var(--colorPrincipal);
+color: #fff;
+
+
+}
+
+.marketing {
+
+    background-image: url(../img/marketing.png);
+   margin-right: 15px;
+   
+}
+
+
+.videojuegos{
+
+    background-image: url(../img/videojuegos.png);
+ margin-left: 15px;
+   
+}
+
+.pidelo{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 20px;
+padding-left: 35px;
+padding-right: 35px;
+margin-bottom: 22px;
+margin-left: 20%;
+margin-right: 20%;
+max-width: 1140px;
+text-transform: uppercase;
+text-decoration: none;
+font-family: var(--fuentePrincipal);
+font-size: 1.4rem;
+}
+
+.pidelo h3{
+
+text-align: center;
+font-weight: 800;
+line-height: 1.2;
+}
+
+.pidelo a{
+
+text-align: center;
+background-color: var(--colorPrincipal);
+color: #fff;
+font-weight: 700;
+float: none;
+padding: 25px;
+border-radius: 96px;
+margin: 20px 220px;
+display: inline-block;
+border: 2px solid white;
+text-decoration: none;
+}
+
+.pidelo a:hover{
+
+background-color: var(--colorSecundario);
+text-decoration: underline;
+}
+
+
+.video{
+
+display: block;
+position: relative;
+padding-bottom: 450px;
+padding-top: 100px;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 150px;
+
+
+}
+
+.video iframe{
+
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.texto{
+
+display: flex;
+flex-direction: column;
+justify-content: left;
+margin-left: 5%;
+margin-right: 5%;
+max-width: 45%;
+}
+
+.paraquien{
+
+    text-align: center;
+    color: var(--colorPrincipal);
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 40px 0px;
+
+
+}
+
+.siquieres{
+
+    color: #02052f;
+    font-weight: 800;
+    font-size: 2.2rem;
+    font-family: var(--fuentePrincipal);
+}
+ 
+.localizaciones {
+
+    background-color: black;
+    color: white;
+
+
+}
+
+.bin {
+
+    color: white;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* 
+
+.seccionprueba h5{
+
+color: white;
+background-color: blue;
+}
+
+#projo{
+color: white;
+background-color: red;
+
+}
+
+.seccionprueba h3{
+    
+    color: white;
+    background-color: green;
+
+
+}
+
+/*selector de clase*/
+/* .h3{
+
+text-align: center;
+text-transform: uppercase;
+color: red;
+font-size: 3rem;
+
+}
+/*selector de id*/
+/*
+#rojo{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-size: 3rem;
+    
+}
+
+/*selector de elemento*/
+/* 
+h6{
+
+font-style: italic;
+
+}
+
+
+.seleccionejercicio p{
+
+font-family: cursive;
+
+}
+
+
+
+/*selector de atributo*/
+/* 
+[src="/img/adecco.png"]{
+
+background-color: black;   
+
+} */
+
+/*selector multiple*/
+/*     
+#rojo , [src="/img/adecco.png"]{
+
+    background-color: blue;
+
+} */
+
+/*selector todos los hijos*/
+/* 
+.seccionejercicio{
+
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+    }   */

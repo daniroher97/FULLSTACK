@@ -1,0 +1,109 @@
+
+html {
+    font-size: 62.5%;
+    
+    }
+    
+    body{
+    
+        font-size: 16px;
+    
+    }
+
+
+/* selector de elemento  verde, mayus, centrado, 4 rem. */
+
+h1{
+
+color: green;
+text-transform: uppercase;
+text-align: center;
+font-size: 4rem;
+
+}
+
+/* selector de clasec Rojo, mayus, centrado, 5 rem */
+
+.rojo{
+
+color: red;
+text-transform: uppercase;
+text-align: center;
+font-size: 5rem;
+
+}
+
+/* selector de id */
+
+#azul {
+
+color: blue;
+text-transform: uppercase;
+text-align: center;
+font-size: 4rem;
+
+}
+
+/* selector de atributo */
+
+[src="/img/adecco.png"]{
+
+    margin: 50px;
+}
+
+
+/* selector de cadena descendente. ROSA, MAYUSCULA, CENTRADO, 4REM */
+
+.selectorcadena h4{
+
+color: pink;
+text-transform: uppercase;
+text-align: center;
+font-size: 4rem;
+
+}
+
+
+/* selector de todos los hijos  CREAR UN H5 Y UN DIV, DENTRO DE DIV 
+    AÑADIR CUATRO H5 Y DAR ESTILO MEDIANTE UN SELECTOR DE 
+    TODOS LOS HIJOS DIRECTOS, PARTIENDO DE LA SECCION
+    AMARILLO, MAYUSCULA, CENTRADO, 4REM */
+
+.hijos > h5{
+
+color: yellow;
+text-transform: uppercase;
+text-align: center;
+font-size: 4rem;
+
+
+}
+
+
+/* selector múltiple */
+
+.seleccion7 h3, .seleccion7 h6{
+
+color: purple;
+text-transform: uppercase;
+text-align: center;
+font-size: 2rem;
+
+}
+
+
+.amarillo{
+
+height: 300px;
+background-color: yellow;
+
+}
+
+.contenedor{
+
+height: 100px;
+background-color: blue;
+max-width: 90%;
+margin: 0 auto;
+
+}
