@@ -107,3 +107,42 @@ max-width: 90%;
 margin: 0 auto;
 
 }
+
+
+.ejemplo3{
+
+display: flex;
+
+}
+
+.div1{
+
+width: 40%;
+background-color: blue;
+color: black;
+
+
+}
+
+
+.div2{
+display: flex;
+width: 60%;
+background-color: red;
+color: black;
+
+}
+
+.parrafo1{
+
+width: 30%;
+background-color: brown;
+
+}
+
+.parrafo2{
+
+width: 70%;
+background-color: aquamarine;
+}
+

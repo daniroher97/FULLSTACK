@@ -15,6 +15,7 @@ html {
 body {
 
     font-size: 16px;
+    
 
 }
 
@@ -163,7 +164,7 @@ justify-content: space-between;
 height: 300px;
 }
 
-.inscribirse div h2{
+.inscribirse > div >h2{
 
 color: #fff;
 background-size: cover;
@@ -282,14 +283,35 @@ height: 100%;
 position: absolute;
 }
 
+.secciontexto{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+
 .texto{
 
 display: flex;
 flex-direction: column;
 justify-content: left;
 margin-left: 5%;
-margin-right: 5%;
-max-width: 45%;
+margin-right: 3%;
+max-width: 50%;
+line-height: 1.5;
+}
+
+.cuando{
+
+font-size: 1.3rem;
+text-transform: none;
+font-family: var(--fuentePrincipal);
+font-weight: 100;
+text-align: left;
+display: block;
+
 }
 
 .paraquien{
@@ -309,17 +331,307 @@ max-width: 45%;
 
     color: #02052f;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-family: var(--fuentePrincipal);
 }
  
+
+.descarga{
+
+    color: #02052f;
+    font-weight: 800;
+    font-size: 1.2rem;
+    font-family: var(--fuentePrincipal);
+    margin-bottom: 1.5rem;
+   text-align: left;
+
+}
+
+.descargar{
+
+text-align: center;
+background-color: var(--colorPrincipal);
+color: #fff !important;
+font-weight: 700;
+font-size: 1.4rem;
+float: none;
+padding: 20px 40px;
+display: inline-block;
+border: 2px solid white;
+text-decoration: none !important;
+font-family: var(--fuenteBotones);
+align-items: center;
+margin-right: 30%;
+}
+
+.descargar:hover{
+
+    color:#f76666 !important;
+    background-color: white;
+    text-decoration: underline;
+    border-color: #f76666;
+    }
+    
+
+.texto a{
+
+color: #f76666;
+font-size: 1.3rem;
+font-weight: 700;
+margin-bottom: 5rem;
+display: block;
+text-decoration: underline;
+font-family: var(--fuentePrincipal);
+text-transform: uppercase;
+
+}
+
 .localizaciones {
 
     background-color: black;
     color: white;
+    padding: 90px 100px;
+    background-size: cover;
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+.bin h2{
+
+margin-bottom: 70px;
+
+}
+
+.madrid{
+display: block;
+margin-right: 75%;
+
+}
+
+.madrid h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.madrid p{
+
+font-size: 1.3rem;
+font-weight: 200;
+text-transform: uppercase;
+margin-top: 0;
+
+}
+
+.alineados{
+
+    margin: 0px 40px;
+}
+
+.alineados h3{
+
+font-family: var(--fuentePrincipal);
+font-weight: 100;
+
+}
+
+.contactar{
+
+    background-color: var(--colorPrincipal);
+    color: white;
+    padding: 90px 100px;
+    background-size: cover;
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
+    margin-left: -100px;
+    margin-right: -100px;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    
+
+}
+
+.contacto{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: left;
+max-width: 50%;
 
 
 }
+
+.contacto >div{
+
+    max-width: 50%;
+    flex: 1;
+}
+
+.llamanos{
+
+margin-left: 2rem;
+max-width: 50%;
+flex: 1;
+
+}
+
+.llamanos p{
+
+margin-bottom: 5px; 
+}
+
+.llamanos a{
+
+    margin-bottom: 20px;
+    color: #f76666;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.llamanos a:hover{
+text-decoration: underline;
+
+}
+
+.tlf{
+
+display: flex;
+flex-direction: row;
+background-color: white;
+color: #02052f;
+padding-right: 300px;
+padding-left: 20px;
+border-radius: 0.55rem;
+align-items: center;
+font-family: var(--fuentePrincipal);
+font-size: 1.3rem;
+height: 100px;
+padding-bottom: 10px;
+margin-top: 20px;
+flex: 1;
+}
+
+.email{
+
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: #02052f;
+    padding-left: 20px;
+    padding-right: 200px;
+    border-radius: 0.55rem;
+    align-items: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.3rem;
+    height: 100px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 5px;
+margin-left: 4rem;
+}
+
+.escribenos{
+
+margin-left: 2rem;
+
+
+}
+
+
+.escribenos p{
+
+    margin-bottom: 5px; 
+    }
+    
+    .escribenos a{
+    
+        margin-bottom: 20px;
+        color: #f76666;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    
+    .escribenos a:hover{
+    text-decoration: underline;
+    
+    }
+
+h4{
+
+    color: #02052f;
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-right: 5%;
+    margin-top: 30px;
+
+}
+
+.footer{
+
+display: flex;
+flex-direction: column;
+justify-content: left;
+margin-top: 500px;
+
+}
+
+.sobrenosotros{
+
+display: flex;
+width: 50%;
+justify-content: space-around;
+
+margin-bottom: 30px;
+
+}
+
+.sobrenosotros h3{
+
+    font-family: var(--fuentePrincipal);
+    color: var(--colorSecundario);
+    font-weight: 800;
+    font-size: 1.5rem;
+
+
+}
+
+.politicas{
+
+
+display: flex;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+margin: 0px 40px;
+margin-bottom: 50px;
+
+}
+
+
+.politicas a{
+
+    color: var(--colorSecundario);
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+
+.enlace{
+
+margin: 20px;
+
+}
+
+span{
+
+font-weight: 800;
+
+}
+
 
 .bin {
 
@@ -327,6 +639,8 @@ max-width: 45%;
     max-width: 90%;
     margin: 0 auto;
 }
+
+
 
 /* 
 
