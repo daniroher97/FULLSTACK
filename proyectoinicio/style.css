@@ -20,6 +20,95 @@ body {
 }
 
 
+.header{
+
+margin: 0px 100px;
+margin-top: 20px;
+
+}
+
+
+.login{
+
+display: flex;
+justify-content: right;
+margin-bottom: 20px;
+margin-right: 20px;
+color: #f76666;
+
+}
+
+
+.login a{
+
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: var(--fuentePrincipal);
+    color: #f76666;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.login a:hover{
+
+text-decoration: underline;
+
+}
+
+.comienzo{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.informacion{
+
+display: flex;
+margin-top: 20px;
+
+}
+
+.informacion a{
+margin-right: 20px;
+font-family: var(--fuentePrincipal);
+font-weight: 700;
+font-size: 1.3rem;
+text-decoration: none;
+color: #02052f;
+
+}
+
+.informacion a:hover{
+
+text-decoration: underline;
+
+}
+
+.infor:hover{
+
+background-color: #117a8b !important;
+text-decoration: none !important;
+border: 1px solid transparent #17a2b8;
+
+}
+
+.infor{
+
+    text-align: center !important;
+    background-color: var(--colorPrincipal);
+    color: #fff !important;
+    margin-top: -12px;
+    font-weight: 700;
+    float: none;
+    padding: 10px 20px;
+    border-radius: 96px;
+    display: inline-block;
+    border: 2px solid white;
+    text-decoration: none;
+
+}
 
 
 .bannerPrincipal {
@@ -27,6 +116,7 @@ body {
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 180px;
+    margin-top: 10px;
 }
 
 .contenedor {
@@ -615,7 +705,7 @@ margin-bottom: 50px;
 
     color: var(--colorSecundario);
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 200;
 
 }
 
