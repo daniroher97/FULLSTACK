@@ -8,6 +8,108 @@ html {
 body {
 
     font-size: 16px;
+    background-color:  rgb(202, 155, 246) ;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 
 }
 
+.header h1 {
+
+    font-size: 50px;
+    font-family: sans-serif;
+
+
+}
+
+.borde {
+
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.secciones {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.secciones a {
+
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    float: none;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid  rgb(202, 155, 246) ;
+}
+
+.secciones a:hover {
+
+    text-decoration: underline;
+    color: blueviolet ;
+    background-color: white;
+}
+
+
+
+.fotoprincipal{
+
+background-image: url(./img/home.jpeg);
+background-size: contain;
+background-repeat: no-repeat;
+height: fit-content;
+padding: 300px;
+padding-right: 200px;
+margin-top: 50px;
+margin-left: 20%;
+
+}
+
+.textofoto{
+
+    display: flex;
+  align-items: center;
+    width: 100%;
+}
+
+.text{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.soy{
+
+    display: flex;
+    flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+    
+    
+}
+
+.soy h3{
+
+margin-right: 10px;
+
+}
