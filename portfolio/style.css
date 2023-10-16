@@ -161,6 +161,21 @@ text-shadow: 3rem;
 
 }
 
+.seccion1 a{
+
+text-decoration: none;
+color: black;
+}
+
+.seccion1 a:hover{
+
+color: blueviolet;
+text-decoration: underline;
+
+}
+
+
+
 
 .seccion{
     background-image: url(./img/pola7.jpg);
@@ -173,6 +188,7 @@ text-shadow: 3rem;
 
 
 }
+
 
 .seccion2{
 
@@ -202,6 +218,12 @@ opacity: 0.5;
     
     }
 
+
+.polas{
+
+margin-top: 7%;
+
+}
 
     .contenedor {
         max-width: 90%;
