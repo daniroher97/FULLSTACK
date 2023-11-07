@@ -1,0 +1,24 @@
+body{
+
+height: 2000px;
+
+}
+
+.EstiloEnlaces{
+
+display: flex;
+
+}
+
+.EstiloEnlaces a{
+
+margin-right: 3rem;
+
+}
+
+.fichas{
+
+background-color: aqua;
+
+
+}
