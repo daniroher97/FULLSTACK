@@ -375,6 +375,30 @@ margin-left: 35%;
 margin-right: 35%;
 }
 
+@media (max-width:1140px) and (min-width:768px) {
+
+  #carouselExample{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+ 
+
+  }
+
+}
+
+@media (max-width:768px) {
+
+  #carouselExample{
+      
+    margin-left: 10%;
+    margin-right: 10%;
+    
+      
+  }
+
+}
+
 .visual{
 
 color: black !important;
@@ -405,6 +429,21 @@ font-size: 30px;
 }
 
 
+
+@media (max-width:768px) {
+
+  .contact_form {
+      
+    width: 300px;
+    margin-left: 10px;
+    
+      
+  }
+
+}
+
+
+
 input{
 	background-color: #fbfbfb; 
 	width: 408px; 
@@ -416,6 +455,18 @@ input{
 	margin-top: 10px;  
 	padding-left: 10px;
   margin-bottom: 20px; 
+}
+
+@media (max-width:768px) {
+
+  input {
+      
+    width: 250px;
+    margin-left: 20px;
+    
+      
+  }
+
 }
 
 
@@ -433,6 +484,18 @@ textarea{
   padding-top: 15px; 
 }
 
+@media (max-width:768px) {
+
+  textarea {
+      
+    width: 250px;
+    margin-left: 20px;
+    
+      
+  }
+
+}
+
 
 label{
   display: block; 
@@ -441,7 +504,7 @@ label{
 
 
 button{
-	height: 45px; 
+	height: 50px; 
 	padding-left: 5px;
 	padding-right: 5px; 	
 	margin-bottom: 10px; 
@@ -453,6 +516,18 @@ button{
 	border-radius: 10px;	
 	width: 420px;   
   cursor: pointer;
+}
+
+@media (max-width:768px) {
+
+  button {
+      
+    width: 270px;
+    margin-left: 20px;
+    
+      
+  }
+
 }
 
 
@@ -484,7 +559,8 @@ span{
 
 .contact{
 	font-size: 39px;  
-	text-align: letf; 
+	text-align: center; 
+  margin-right: 20px;
 	padding-bottom: 20px; 
 	color: #ab4493;
 }
