@@ -41,7 +41,7 @@ margin-left: 20px;
 
 .secciones{
 
-  width: 90%;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -264,12 +264,6 @@ height: 50rem;
 
 }
 
-.margen1{
-
-margin-left: 40px !important;
-
-}
-
 .seccion1{
 
 background-image: url(./img/pola8.jpg);
@@ -425,7 +419,7 @@ font-size: 30px;
 	padding-bottom: 20px;  
   background-color: #fbfbfb; 
   padding-left: 30px; 
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 
